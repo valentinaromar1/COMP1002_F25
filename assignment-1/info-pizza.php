@@ -12,11 +12,15 @@
 	<main>
 	   <?php
 		
-	   $name = $_GET["name"];
-	   
-	 	echo('<p>thank you for your order' .$name.'!</p>');
+	   $fname = $_GET["fname"];
+	   $lname = $_GET["lname"];
+
+	 	echo('<p>thank you for your order' .$fname.''.$lname.'!</p>');
 	 	echo('<p>your order is being processed:</p><ul>');
 		
+		foreach (){
+			echo()
+		}
 		echo('</ul>');
 	 ?>
 
