@@ -1,6 +1,18 @@
+html {
+	background-color: rgb(255, 220, 154);
+}
 *{
 
 	color: tomato; 
 	font-family: 'Papyrus';
 
+}
+body {
+	font-size: 100%;
+	color: #333;
+	width: 760px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+	border-radius: 5px;
 }
