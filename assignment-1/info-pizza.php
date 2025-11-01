@@ -20,10 +20,7 @@
 
 		$crusttype = $_GET["crusttype"];
 		
-		foreach (){
-			echo()
-		}
-		echo('</ul>');
+		echo(.crusttype.);
 	 ?>
 
 	</main>
