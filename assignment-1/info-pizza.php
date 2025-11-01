@@ -14,8 +14,8 @@
 		
 	   $name = $_GET["name"];
 	   
-	 
-	 	echo('<p>The Alert Settings you have chosen include the following notifications:</p><ul>');
+	 	echo('<p>thank you for your order' .name.'!</p>');
+	 	echo('<p>your order is being processed:</p><ul>');
 		
 		echo('</ul>');
 	 ?>
