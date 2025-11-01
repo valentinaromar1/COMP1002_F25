@@ -5,6 +5,16 @@
 		<title>papyrus pizza™</title>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
+	<main>
 	   <?php
-
+		
 	   $
+	   
+	 
+	 
+	 ?>
+	   </main>
+
+<footer>
+    <p><small>©Papyruspizza Inc. All rights reserved</small></p>
+</footer>
