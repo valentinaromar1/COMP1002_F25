@@ -14,7 +14,7 @@
 		
 	   $name = $_GET["name"];
 	   
-	 	echo('<p>thank you for your order' .name.'!</p>');
+	 	echo('<p>thank you for your order' .$name.'!</p>');
 	 	echo('<p>your order is being processed:</p><ul>');
 		
 		echo('</ul>');
