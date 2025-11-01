@@ -5,10 +5,6 @@
 		<title>papyrus pizza™</title>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
-	    <body>
-    
+	   <?php
 
-
-    
-
-        </body>
+	   $
