@@ -25,26 +25,7 @@
 		$topping2 = $_GET["topping2"];
 		$topping3 = $_GET["topping3"];	
 		
-<<<<<<< HEAD
-		$address = $_GET["address"];
-	    $phonenumber = $_GET["phone number"];
-		
 		echo('<p>crust type:'.$crusttype.'</p>');
-		echo('<p>shape:'.$shape.'</p>');
-		echo('<p>topping1:'.$toping1.'</p>');
-		echo('<p>topping2:'.$topping2.'</p>');
-		echo('<p>topping3:'.$topping3.'</p>');
-		echo('<p>address:'.$address.'</p>');
-		echo('<p>phonenumber:'.$phonenumber.'</p>');
-
-	
-		
-
-
-
-=======
-		echo('<p>crust type:'.$crusttype.'</p>');
->>>>>>> 87530942e435bfc1b14bbe7e712ef28102baaf8a
 	 ?>
 
 	</main>
