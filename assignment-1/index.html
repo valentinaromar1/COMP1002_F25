@@ -35,10 +35,10 @@
                         <div>
                         <label for="crust">crust</label>
                         <select name="crusttype">
-                            <option value="reg">regular</option>
+                            <option value="regular">regular</option>
                             <option value="thin">thin</option>
-                            <option value="dd">deep dish</option>
-                            <option value="stuff">stuffed crust</option>
+                            <option value="deep dish">deep dish</option>
+                            <option value="stuffed">stuffed crust</option>
                         </select>
                         </div>
 
@@ -57,42 +57,42 @@
                         <div>
                         <label for="size">size</label>
                         <select name="size">
-                            <option value="small">small</option>
-                            <option value="medium">medium</option>
-                            <option value="large">large</option>
+                            <option value="small(6 slices)">small(6 slices)</option>
+                            <option value="medium(8 slices)">medium(8 slices)</option>
+                            <option value="large(10 slices)">large(10 slices)</option>
                             </select>
                         </div>
                         <!--the blank <p> are used for spaces-->
                         <p></p>
 
                         <div>
-                            <label for="toppings">toppings</label>
-                            <select name="topping" id="topping">
-                                <option value="">none</option>
-                                <option value="">extra cheese</option>
-                                <option value="">pepparoni</option>
-                                <option value="">olives</option>
-                                <option value="">mushrooms</option>
-                                <option value="">green onions</option>
-                                <option value="">pinaple</option>
+                            <label for="toppings1">toppings</label>
+                            <select name="topping1" id="topping1">
+                                <option value="none">none</option>
+                                <option value="extra cheese">extra cheese</option>
+                                <option value="pepparoni">pepparoni</option>
+                                <option value="olives">olives</option>
+                                <option value="mushrooms">mushrooms</option>
+                                <option value="green onions">green onions</option>
+                                <option value="pineapple">pineapple</option>
                             </select>
                             <select name="topping2" id="topping">
-                                <option value="">none</option>
-                                <option value="">extra cheese</option>
-                                <option value="">pepparoni</option>
-                                <option value="">olives</option>
-                                <option value="">mushrooms</option>
-                                <option value="">green onions</option>
-                                <option value="">pinaple</option>
+                                <option value="none">none</option>
+                                <option value="extra cheese">extra cheese</option>
+                                <option value="pepparoni">pepparoni</option>
+                                <option value="olives">olives</option>
+                                <option value="mushrooms">mushrooms</option>
+                                <option value="green onions">green onions</option>
+                                <option value="pineapple">pineapple</option>
                             </select>
                             <select name="topping" id="topping">
-                                <option value="">none</option>
-                                <option value="">extra cheese</option>
-                                <option value="">pepparoni</option>
-                                <option value="">olives</option>
-                                <option value="">mushrooms</option>
-                                <option value="">green onions</option>
-                                <option value="">pinaple</option>
+                                <option value="none">none</option>
+                                <option value="extra cheese">extra cheese</option>
+                                <option value="pepparoni">pepparoni</option>
+                                <option value="olives">olives</option>
+                                <option value="mushrooms">mushrooms</option>
+                                <option value="green onions">green onions</option>
+                                <option value="pineapple">pineapple</option>
                             </select>
                         </div>
 
@@ -105,13 +105,22 @@
                         <input type="radio" name="mfa" id="in" value="in" />
                         <label for="in">eat in</label>
                     
+                        <input type="radio" name="mfa" id="delivery" value="delivery" />
+                        <label for="in">delivery</label>
                         </div>
 
                         <p></p>
 
                         <div>
-                        <label for="address">Address</label>
+                        <label for="address">Address(delivery only)</label>
                         <input type="text" id="address"  name="address" />
+                        </div>
+
+                        <p></p>
+
+                        <div>
+                        <label for="Phonenumber">Phone number</label>
+                        <input type="text" id="Phone-number"  name="Phone-number" />
                         </div>
                     </fieldset>
 
