@@ -18,7 +18,6 @@
 	 	echo('<p>thank you for your order ' .$fname.' '.$lname.'!</p>');
 	 	echo('<p>your order is being processed:</p><ul>');
 
-
 		$crusttype = $_GET["crusttype"];
 		$nop = $_GET["nop"]
 		$shape = $_GET["shape"];
