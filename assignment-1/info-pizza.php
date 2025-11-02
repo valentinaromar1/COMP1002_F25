@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>papyrus pizza™</title>
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<header>
@@ -15,7 +15,7 @@
 	   $fname = $_GET["fname"];
 	   $lname = $_GET["lname"];
 
-	 	echo('<p>thank you for your order' .$fname.''.$lname.'!</p>');
+	 	echo('<p>thank you for your order ' .$fname.' '.$lname.'!</p>');
 	 	echo('<p>your order is being processed:</p><ul>');
 
 		$crusttype = $_GET["crusttype"];
@@ -25,6 +25,7 @@
 		$topping2 = $_GET["topping2"];
 		$topping3 = $_GET["topping3"];	
 		
+<<<<<<< HEAD
 		$address = $_GET["address"];
 	    $phonenumber = $_GET["phone number"];
 		
@@ -41,6 +42,9 @@
 
 
 
+=======
+		echo('<p>crust type:'.$crusttype.'</p>');
+>>>>>>> 87530942e435bfc1b14bbe7e712ef28102baaf8a
 	 ?>
 
 	</main>
