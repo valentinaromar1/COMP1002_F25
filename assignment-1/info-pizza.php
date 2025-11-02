@@ -18,24 +18,32 @@
 	 	echo('<p>thank you for your order ' .$fname.' '.$lname.'!</p>');
 	 	echo('<p>your order is being processed:</p><ul>');
 
+
 		$crusttype = $_GET["crusttype"];
+		$nop = $_GET["nop"]
 		$shape = $_GET["shape"];
 		$size = $_GET["size"];
 		$topping1 = $_GET["topping1"];
 		$topping2 = $_GET["topping2"];
 		$topping3 = $_GET["topping3"];	
 			
+		$mfa = $_GET["mfa"]
 	    $address = $_GET["address"];
 	    $phonenumber = $_GET["phonenumber"];
 		
+		echo('<p>number of pizzas:'.$nop.'</p>');
 		echo('<p>crust type:'.$crusttype.'</p>');
-		echo('<p>crust type:'.$shape.'</p>');
-		echo('<p>crust type:'.$size.'</p>');
-		echo('<p>crust type:'.$topping1.'</p>');
-		echo('<p>crust type:'.$topping2.'</p>');
-		echo('<p>crust type:'.$topping3.'</p>');
-		echo('<p>crust type:'.$address.'</p>');
-		
+		echo('<p>shape:'.$shape.'</p>');
+		echo('<p>size:'.$size.'</p>');
+		echo('<p>topping 1:'.$topping1.'</p>');
+		echo('<p>topping 2:'.$topping2.'</p>');
+		echo('<p>topping 3:'.$topping3.'</p>');
+
+		echo('<p>dinning:'.$mfa.'</p>')
+		echo('<p>address:'.$address.'</p>');
+		echo('<p>phone number:'.$phonenumber.'</p>');
+
+
 	 ?>
 
 	</main>
