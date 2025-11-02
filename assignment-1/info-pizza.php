@@ -24,8 +24,18 @@
 		$topping1 = $_GET["topping1"];
 		$topping2 = $_GET["topping2"];
 		$topping3 = $_GET["topping3"];	
+			
+	    $address = $_GET["address"];
+	    $phonenumber = $_GET["phonenumber"];
 		
 		echo('<p>crust type:'.$crusttype.'</p>');
+		echo('<p>crust type:'.$shape.'</p>');
+		echo('<p>crust type:'.$size.'</p>');
+		echo('<p>crust type:'.$topping1.'</p>');
+		echo('<p>crust type:'.$topping2.'</p>');
+		echo('<p>crust type:'.$topping3.'</p>');
+		echo('<p>crust type:'.$address.'</p>');
+		
 	 ?>
 
 	</main>
