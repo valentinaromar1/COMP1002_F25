@@ -1,0 +1,30 @@
+html{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 35px;
+    border-width: 200px;
+    background-color:   black;
+}
+header{
+    font-weight: bold;
+    float: left;
+}
+body{
+    color: white;
+    padding: 1em 2em 4em 9em;
+    background-color:   black;
+     font: Verdana, sans-serif;
+}
+h1{
+    size: 1em;
+    font: ;
+}
+h2{
+    color: red;
+    font-size: 3em;
+    font: Verdana, sans-serif;
+    font-weight: bolder;
+}
+main{
+    float: center;
+   
+}
