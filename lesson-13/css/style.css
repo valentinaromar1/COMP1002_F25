@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* Basic layout styles */
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
 body {
 	background: black;
 	font-size: 100%;
@@ -42,18 +48,43 @@ h1::after{
 	}
 	main {
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	/* The first SECTION element inside the MAIN should stretch all the way across the page layout container */
-	main
+	main section:nth-of-type(1) {
+		flex-basis: 100%;
+	}
 	/* The second and third SECTION elements should sit side-by-side - remember the box model when setting the width with flex-basis */
+	main section:nth-of-type(2), main section:nth-of-type(3) {
+		flex-basis: 45%;
+	}
 }
 /* STEP 6b: Edit the above CSS to set the background color of #container to orange and arrange the page in 2-column layout with the first section on top of the second and third sections (using flexbox) */
 
 /* STEP 7a: Add another media query to target only screens 1025px or larger (notebooks and desktops)*/
-
+@media screen and (min-width: 1025px), (orientation: landscape) {
+	h1::after {
+		content: " (Large)" ;
+	}
+	#container {
+		background-color: palevioletred;
+	}
+	main {
+		/* flex-direction: row still in effect from the medium screen media query above*/
+		flex-wrap: nowrap;
+	}
 	/* Desktops/large screen styles */
-
+	/*#content > main > section {
+		flex-basis: auto;
+	}
+	*/
+	main section:nth-of-type(1),
+	main section:nth-of-type(2),
+	main section:nth-of-type(3) {
+		flex-basis: auto;
+	}
+}
 /* STEP 7b: Edit the above CSS to set the background color of #container to olive and arrange the page in a 3-column layout (using flexbox) */
 
 /* STEP 8: Add an OR conditional (,) to the above media query that applies the above CSS if the device is being held in landscape orientation, rather than portrait */
